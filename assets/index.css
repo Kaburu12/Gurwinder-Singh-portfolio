@@ -1,0 +1,51 @@
+body{
+	padding: 0;
+	margin: 10;
+	font-family: 'Jost', sans-serif;
+	background: #7b4397;  
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  
+    background: linear-gradient(to right, #dc2430, #7b4397); 
+
+}
+
+.home-container{
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#profile{
+margin-top: 20px;
+border-radius: 50%;
+width: 60%;
+height: auto;
+}
+
+.about-section p{
+ font-size: 25px;
+}
+
+
+#about-header{
+	text-align: center;
+	font-weight: 900;
+}
+
+#about-paragraph{
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 20px;
+}
+
+h1{
+	color: #ffffff;
+}
+
+.education{
+	text-align: center;
+	
+}
