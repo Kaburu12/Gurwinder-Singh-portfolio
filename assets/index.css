@@ -33,12 +33,14 @@ height: auto;
 }
 
 #about-paragraph{
-	font-size: 20px;
+	font-size: 23px;
 	color: #ffffff;
 	text-align: center;
 	margin-left: 70px;
 	margin-right: 70px;
 	margin-top: 20px;
+	background-color: #939496;
+	padding: 10px;
 }
 
 h1{
@@ -78,6 +80,13 @@ h1{
 
 #hr{
     background-color: rgb(252,48,75);
+    padding: 2px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.hr{
+	background-color: #ffffff;
     padding: 1px;
     margin-left: 300px;
     margin-right: 300px;
@@ -104,5 +113,48 @@ h1{
 }
 
 #skills-heading{
+	text-align: center;
+}
+
+.certifications{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cert{
+        background-color: #ffffff;
+		width: 450px;
+		height: 450;
+		padding: 10px;
+		margin: 10px;
+}
+
+#cert-heading{
+	text-align: center;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+.cert-header{
+	display: flex;
+	justify-content: center;
+
+}
+
+.btn-1{
+	padding-left: 80px;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+button{
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 7px;
+	font-weight: 900;
+}
+
+.certifications-2{
 	text-align: center;
 }
