@@ -157,6 +157,10 @@ button{
 	cursor: pointer;
 }
 
+#btn-2{
+	border-radius: 30px;
+}
+
 .certifications-2{
 	text-align: center;
 }
