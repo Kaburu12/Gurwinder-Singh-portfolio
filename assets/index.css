@@ -2,9 +2,9 @@ body{
 	padding: 0;
 	margin: 10;
 	font-family: 'Jost', sans-serif;
-	background: #7b4397;  
+	/* background: #7b4397;  
     background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  
-    background: linear-gradient(to right, #dc2430, #7b4397); 
+    background: linear-gradient(to right, #dc2430, #7b4397);  */
 
 }
 
@@ -13,6 +13,11 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: #7b4397;  
+    background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  
+    background: linear-gradient(to right, #dc2430, #7b4397); 
+	margin-bottom: 10px;
+	padding-bottom: 20px ;
 }
 
 #profile{
@@ -20,6 +25,10 @@ margin-top: 20px;
 border-radius: 50%;
 width: 60%;
 height: auto;
+}
+
+span{
+	color: #ffffff;
 }
 
 .about-section p{
@@ -30,7 +39,6 @@ height: auto;
 
 #about-header{
 	text-align: center;
-	font-weight: 900;
 }
 
 #about-paragraph{
@@ -44,7 +52,7 @@ height: auto;
 	padding: 10px;
 }
 
-h1{
+.h1{
 	color: #ffffff;
 }
 
@@ -80,7 +88,7 @@ h1{
 }
 
 #hr{
-    background-color: rgb(252,48,75);
+    background-color: #dc2430;
     padding: 2px;
     margin-left: 300px;
     margin-right: 300px;
@@ -150,7 +158,7 @@ h1{
 }
 
 button{
-	padding: 20px;
+	padding: 15px;
 	font-size: 20px;
 	border-radius: 7px;
 	font-weight: 900;
@@ -159,8 +167,67 @@ button{
 
 #btn-2{
 	border-radius: 30px;
+	color: #dc2430;
+	font-size: 20px;
+	box-shadow: 5px 5px 5px #939496;
 }
 
 .certifications-2{
 	text-align: center;
+}
+
+.contact-me{
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.contact-me p {
+	background-color: #DAD3D3;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+#contact{
+    display: flex;
+    justify-content: center;
+}
+
+.social{
+    margin: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+
+footer{
+	text-align: center;
+	background-color: #DAD3D3;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+
+@media screen and (max-width: 650px) {
+	#contact{
+		display: flex;
+		justify-content: center;
+	}
+	
+	.social{
+		margin: 10px;
+		width: 30px;
+		cursor: pointer;
+	}
+
+	#btn-2 {
+		padding: 4px;
+		font-size: 15px;
+		border-radius: 4px;
+		font-weight: 600;
+		cursor: pointer;
+		box-shadow: 2px 3px 3px #939496;
+		margin-right: 10px;
+	}
 }
