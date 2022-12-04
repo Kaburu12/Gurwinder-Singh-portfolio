@@ -263,6 +263,19 @@ h4{
 }
 
 @media screen and (max-width: 650px) {
+    #profile{
+		border-radius: 50%;
+		width: 150px;
+		height: auto;
+		margin-right: 15px;
+		}
+    .about-section p{
+		font-size: 15px;
+	}
+
+	.about-section h2{
+		font-size: 20px;
+	}
 	#contact{
 		display: flex;
 		justify-content: center;
@@ -281,7 +294,6 @@ h4{
 		border-radius: 4px;
 		font-weight: 600;
 		cursor: pointer;
-		box-shadow: 2px 3px 3px #939496;
-		margin-right: 10px;
+		box-shadow: 2px 3px 2px #939496;
 	}
 }
