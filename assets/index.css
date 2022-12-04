@@ -17,7 +17,8 @@ body{
     background: -webkit-linear-gradient(to right, #dc2430, #7b4397);  
     background: linear-gradient(to right, #dc2430, #7b4397); 
 	margin-bottom: 10px;
-	padding-bottom: 20px ;
+	padding-bottom: 40px ;
+	padding-top: 20px;
 }
 
 #profile{
@@ -56,20 +57,42 @@ span{
 	color: #ffffff;
 }
 
+.career-goals{
+	text-align: center;
+}
+
+.career-goals p{
+	font-size: 20px;
+}
+
+.career-goals h2{
+	text-align: center;
+	background: #DAD3D3;
+	padding: 10px;
+}
+
 .education{
 	text-align: center;
     background-color: beige;
 	margin-left: 60px;
 	margin-right: 60px;
-	padding-bottom: 20px;
+	padding-bottom: 370px;
 	padding-top: 20px;
+
 }
 
 .education p {
     font-size: 25px;
 }
 
+#schools{
+	color: #dc2430;
+}
+
+
+
 .home{
+	display: flex;
 	font-size: 30px;
 	margin-left: 60px;
 	margin-bottom: 20px;
@@ -102,11 +125,11 @@ span{
 }
 
 #skills{
-	display: flex;
+	/* display: flex; */
 	justify-content: center;
 	align-items: center;
+	flex-direction: column;
 	margin-left: 50px;
-	margin-right: 50px;
 }
 
 #h3{
@@ -149,6 +172,10 @@ span{
 	display: flex;
 	justify-content: center;
 
+}
+
+#btn-3{
+	background-color: #D93133;
 }
 
 .btn-1{
@@ -208,6 +235,32 @@ footer{
 	margin-top: 20px;
 }
 
+h5{
+	color: blue;
+	margin-left: 30px;
+	font-size: 17px;
+}
+
+.testimonial-section{
+	margin-bottom: 300px;
+}
+
+h4{
+	color: #D93133;
+}
+
+.testimonial-section h2{
+	text-align: center;
+}
+
+.testimonials{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.testimonials p{
+	font-size: 20px;
+}
 
 @media screen and (max-width: 650px) {
 	#contact{
@@ -218,6 +271,7 @@ footer{
 	.social{
 		margin: 10px;
 		width: 30px;
+		height: 40px;
 		cursor: pointer;
 	}
 
